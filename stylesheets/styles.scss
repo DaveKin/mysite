@@ -1,3 +1,5 @@
+$bg-color: #dddddd;
+
 @font-face {
   font-family: 'Noto Sans';
   font-weight: 400;
@@ -55,7 +57,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: $bg-color;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
